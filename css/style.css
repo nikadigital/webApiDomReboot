@@ -1,0 +1,6 @@
+.delete-button {
+  background-color: red;
+  border: 2px solid red;
+  border-radius: 2px;
+  color: white;
+}

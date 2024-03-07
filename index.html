@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Enlace al archivo CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Enlace al archivo JavaScript, con defer cargamos el js después del DOM -->
+  <script type="text/javascript" src="js/index.js" defer></script>
+  <title>My ToDo List</title>
+</head>
+
+<body>
+  <header>
+    <h1>My ToDo List</h1>
+  </header>
+  
+  <section>
+    <!-- Es un div vacío para ir colocando las tareas cada una en un div -->
+    <div id="main-wrapper">
+    </div>
+
+    <div id="actions-wrapper">
+      <input id="new-task" type="text">
+      <button id="btn-add-task" type="button">Add Task</button>
+    </div>
+  </section>
+  
+  <footer>
+    <!-- En el span iremos sumando en el contador -->
+    <h2>Pending Tasks: <span id="pending-tasks"></span></h2>
+  </footer>
+
+</body>
+
+</html>
